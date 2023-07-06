@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "abyss:asswagon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "salt": 1698827901,
+    "frequency": 1,
+    "distance": 5,
+    "spread": 4,
+    "count": 4095,
+    "preferred_biomes": [
+      "abyss:abyss_biome",
+      "abyss:abyss_hollow",
+      "abyss:frozen_abyss"
+    ]
+  }
+}

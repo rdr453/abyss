@@ -1,0 +1,17 @@
+{
+  "start_pool": "abyss:asswagon_pool",
+  "size": 1,
+  "start_height": {
+    "absolute": 180
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false,
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "abyss:abyss_biome",
+    "abyss:abyss_hollow"
+  ],
+  "step": "top_layer_modification",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin"
+}

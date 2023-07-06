@@ -1,0 +1,88 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "temperature_modifier": "frozen",
+  "effects": {
+    "sky_color": 655635,
+    "fog_color": 2307902,
+    "water_color": 1318969,
+    "water_fog_color": 1644867,
+    "grass_color": 1712951,
+    "foliage_color": 859152,
+    "particle": {
+      "options": {
+        "type": "minecraft:cloud"
+      },
+      "probability": 0.0001
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:husk",
+        "weight": 200,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:ravager",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:vex",
+        "weight": 1,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:stray",
+        "weight": 100,
+        "minCount": 6,
+        "maxCount": 10
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave_extra_underground",
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "abyss:obsidian_vein",
+      "abyss:void_pocket",
+      "abyss:obsidian2_vein"
+    ],
+    [],
+    [
+      "minecraft:spring_water"
+    ],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}
